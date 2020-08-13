@@ -1,0 +1,219 @@
+html,body{
+    width:100%;
+    height:100%
+}
+
+body{
+    background: url(../imgaes/mc.jpg) no-repeat center ;
+    background-attachment:fixed;
+    background-size: 100%;
+}
+
+header{
+    width: 100%;
+    background-color: #002a32;
+    position: fixed;
+    top: 0;
+    z-index: 10000;margin-bottom: 100px;
+}
+
+header ul li{
+    float: left;
+    height: 55px;
+    margin-left: 30px;
+}
+
+header ul li a{
+    line-height: 55px;
+    color: #00d6d6;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.logo{
+    float: left;
+    line-height: 55px;
+    margin-left: 20px;
+    font-size: 30px;
+}
+
+.nav{
+    float: left;
+
+}
+
+ .search{
+    float: right;
+    display: block;
+    line-height: 55px;
+    margin-right: 20px;
+}
+.search span{
+    display: inline-block;
+    margin-right: 10px;
+    line-height: 33px;
+}
+
+.input{
+    display: inline-block;
+    border-bottom: 2px solid #00d6d6;
+    width: 400px;
+    line-height: 33px;
+} /* */
+
+.search-con{
+    margin-left: 10px;
+    color: #fff;
+    font-size: 14px;
+    height: 28px;
+    width: 260px;
+}
+
+.search-con::placeholder{
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+.search-cancel{
+    font-size: 20px;
+    color: red;
+    width: 30px;
+    height: 28px;
+}
+.search-confirm{
+    font-size: 20px;
+    width: 30px;
+    height: 28px;
+    color: #00d6d6;
+}/*  */
+
+
+.login{
+    float: right;
+    display: block;
+    width: 55px;
+    height: 50px;
+    font-size: 30px;
+    line-height: 55px;
+    margin-right: 20px;
+}
+
+.middle{
+    padding: 50px;
+    margin: 100px auto;
+    background: rgba(255,255,255, 0.3);
+    width: 970px;
+    height: 250px;
+}
+
+.show{
+    margin: auto;
+    background-color: #fff;
+    width: 800px;
+    height: 240px;
+}
+
+.page{
+    margin: 0 auto;
+    background-color: rgb(210, 210, 210);
+    width: 1200px;
+    margin-bottom: 20px;
+}
+
+.x{
+    float: left;
+    margin: 10px 10px;
+    position: relative;
+    width: 380px;
+    height: 337px;
+    background-size: 100%;
+}
+
+.x em{
+    position: absolute;
+    bottom: 0;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    padding: 0 18px;
+    margin-bottom: 10px;
+}
+
+.card1{
+    background-image: linear-gradient(to bottom,rgba(0,0,0,0),#000000),url(../imgaes/nav1.jpg);
+}
+
+.card2{
+    background-image: linear-gradient(to bottom,rgba(0,0,0,0),#000000),url(../imgaes/nav2.png);
+}
+
+.card3{
+    background-image: linear-gradient(to bottom,rgba(0,0,0,0),#000000),url(../imgaes/nav3.jpg);
+}
+
+.card4{
+    background-image: linear-gradient(to bottom,rgba(0,0,0,0),#000000),url(../imgaes/nav4.png);
+}
+
+.card5{
+    background-image: linear-gradient(to bottom,rgba(0,0,0,0),#000000),url(../imgaes/nav5.jpg);
+}
+
+.card6{
+    background-image: linear-gradient(to bottom,rgba(0,0,0,0),#000000),url(../imgaes/nav6.png);
+}
+
+.card7{
+    background-image: linear-gradient(to bottom,rgba(0,0,0,0),#000000),url(../imgaes/nav7.jpg);
+}
+
+.card8{
+    background-image: linear-gradient(to bottom,rgba(0,0,0,0),#000000),url(../imgaes/nav8.png);
+}
+
+.card9{
+    background-image: linear-gradient(to bottom,rgba(0,0,0,0),#000000),url(../imgaes/nav9.jpg);
+}
+
+footer{
+    width: 100%;
+    display: block;
+    background-color: #002a32;
+    padding-bottom: 30px;
+}
+
+.footer-logo{
+    margin: auto;
+    padding: 40px;
+    width: 300px;
+    font-size: 30px;
+}
+
+.footer-con{
+    width: 900px;
+    margin: auto;
+    color: #fff;
+    font-size: 16px;
+}
+
+.footer-con ul{
+    width: 220px;
+    display: inline-block;
+}
+
+
+.footer-con ul li{
+    text-align: center;
+}
+.footer-con ul li a{
+    color: #00d6d6;
+    line-height: 30px;
+}
+
+.title{
+    text-align: center;
+    font-size: 16px;
+    color: #00d6d6;
+    margin: 5px;
+}

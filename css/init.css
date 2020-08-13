@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    font-family: Rubik,Helvetica Neue,Helvetica,Arial,sans-serif;
+    text-decoration: none;
+    text-align: center;
+}
+
+em,
+i {
+    font-style: normal;
+    /* color: #00d6d6; */
+}
+
+span {
+    font-family: 'icomoon';
+    color: #00d6d6;
+    text-align: center;
+}
+
+input{
+    outline: none;
+    background: transparent;
+    font-family: sans-serif;
+    border: 0;
+}
+
+button{
+    border: 0;
+    background-color: transparent;
+}
+
+
+.clearfix::after{
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+.clearfix{
+    *zoom: 1;
+}
